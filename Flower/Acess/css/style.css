@@ -1,0 +1,240 @@
+@font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Bold.ttf");
+	font-weight: 700;
+	 }
+ @font-face {
+	font-family: "Montserrat";
+	src: url("../fonts/Montserrat-Regular.ttf");
+	font-weight: 400;
+	 }
+ @font-face {
+font-family: "Lora";
+src: url("../fonts/Lora-Regular.ttf");
+font-weight: 400;
+	 }
+ * 	{
+box-sizing: border-box;
+	 }
+ body {
+	margin: 0;
+	font-family: Montserrat;
+	 }
+ .container {
+		width: 100%;
+		max-width: 1140px;
+		margin: 0 auto;
+	 }
+ section {
+	padding: 90px 0;
+ }
+ .first-screen {
+	height: 100vh;
+	clip-path: ellipse(100% 60% at 50% 35%);
+	display: flex;
+	align-items: center;
+	position: relative;
+ }
+ .section-bg {
+		background: url(../img/flower3.jpg);
+		color: #fff;
+	 }
+ h1 {
+		font-family: Lora;
+		font-size: 80px;
+	 }
+ .btn {
+	padding: 13px 20px;
+	color: #fff;
+	border: 2px solid transparent;
+	text-decoration: none;
+	font-weight: 700;
+ }
+ .btn-bg {
+		background: #c74838;
+		 }
+ .btn-outline {
+		border-color: #c74838;
+		 }
+.scroll {
+  display: block;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+  left: 50%;
+  bottom: 40px;
+  transform: translate(-50%, 0);
+  max-width: 60px
+  }
+.scroll:hover 
+		{
+transform:translate(-50%, 25px);
+  }
+
+	h2 {
+	 font-family: Lora;
+	 font-size: 48px;
+	 margin: 40 30 40px;
+	 }
+  p {
+  font-size: 20px;
+  line-height: 2;
+  font-family: Montserrat;
+  }
+.d-flex {
+display: flex;
+}
+.w-60 {
+  width: 60%;
+  }
+.w-40 {
+  width: 40%;
+  }
+.pr-4 {
+  padding-right: 4rem;
+  }
+form {
+  display: flex;
+  flex-direction: column;
+  } 
+input,
+textarea {
+padding: 15px;
+font-size: 15px;
+margin-bottom: 15px;
+border: none;
+  }
+input:focus,
+textarea:focus {
+outline: none;
+  }
+.btn:hover {
+background: #e63a23;
+transition: all 0.3s ease-in-out;
+} 
+* {
+   box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li a {
+   display: block;
+   color: #000;
+   padding: 8px 16px;
+   text-decoration: none;
+	}
+li a:hover {
+   background-color: #555;
+   color: white;
+	}
+	.wrap {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    aside {
+      flex: 0 0 calc( 20% - 20px );
+      padding: 15px;	
+   }
+.catalog{
+      flex: 1 0 70%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: stretch;
+   }
+.card {
+      padding:20px 50px 80px;
+      flex: 0 0 calc( 25% - 30px );
+      min-width: 300px;
+      display: flex;
+      flex-direction: row;
+   }
+.card_border {
+   flex: 1;
+   padding: 15px;
+   min-height: 140px;
+	border: 1px solid rgb(238, 215, 228);
+   }
+aside + .catalog .cell {
+      flex: 0 0 calc( 33% - 30px );
+   }
+	.loop-action {
+		position: relative;
+		left: 50%;
+		top: 50%;
+		opacity: 0;
+		transform: translate(-50%, -50%);
+		transition: .3s ease-in-out;
+	}
+	.card_border:hover .loop-action {
+		opacity: 1;
+	}
+	.loop-action a {
+		text-decoration: none;
+		display: block;
+		border: 1px solid white;
+		white-space: nowrap;
+		text-transform: uppercase;
+		padding: .5em 1em;
+		font-size: 10px;
+		line-height: 1;
+		outline: none;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		color: white;
+		min-width: 160px;
+		margin: 5px auto;
+		transition: .3s ease-in-out;
+	}
+	.loop-action a:after {
+		content: '';
+		position: absolute;
+		left: -220%;
+		top: -500%;
+		width: 140%;
+		height: 1000%;
+		transform: rotate(45deg);
+		background: white;
+		z-index: -10;
+		transition: .3s ease-in-out;
+	}
+	.loop-action a:hover {
+		color: black;
+	}
+	.loop-action a:hover:after {
+		left: 0%;
+	}
+	.card_border:hover {
+		border-color: #4966A2;
+	}
+
+
+
+.gallery {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+  }
+.img-wrapper {
+width: 350px;
+height: 300px;
+margin-bottom: 70px;
+overflow: hidden;
+cursor: pointer;
+display: flex;
+justify-content: center;
+  }
+.img-wrapper img {
+object-fit: cover;
+transition: all 0.3s ease-in-out;
+  }
+.img-wrapper:hover {
+transform: scale(1.05);
+} 

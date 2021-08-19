@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding:0;
+}
+.logo 
+    {
+        color: aliceblue;
+        font-size: 30px;
+    }
+.site-header {
+    background: #0D1313;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin:0px 2px 0px 2px;
+    margin-bottom: 5px;
+    }
+.site-nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        }
+.site-nav a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #CDD0D0;
+        padding: 20px;
+        display: inline-block;
+        }
+    .dropdown  ul {
+            display: none;
+        }
+        
+        .dropdown:hover ul {
+            list-style: none;
+            display: block;
+            }
+        .dropdown:hover li a{
+            text-decoration: none;
+            padding: 20px;
+            }
+    .container {
+                width: 100%;
+                max-width: 1140px;
+                margin: 0 auto;
+            }
+    .first-screen {
+            height: 100vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        
+        }
+    .section-bg {
+                background: url(../media/images/home/Rolling-Homes-9.jpg);
+                background-size: cover;
+                color: #fff;
+                opacity: 90%;
+                margin:0px 2px 0px 2px;
+
+            }
+    
+
+        h1 {
+                font-family: Lora;
+                font-size: 200px;
+            margin-bottom: 60px;
+            color:#4682B4 ;
+
+            
+            }
+        .btn {
+    
+            padding: 20px 20px;
+            color: #fff;
+            border: 2px solid transparent;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .btn-bg {
+                background:#191970 ;
+                }
+    .btn:hover 
+        {
+        background: #1E90FF;
+        transition: all 0.3s ease-in-out;
+                    } 
+    section {
+            padding: 90px 0;
+                }
+    .Search
+                {
+                width: auto;
+                height: 40px;
+                background: #ccc;
+                position: relative;
+                margin:0px 2px 0px 2px;
+                }
+    fieldset
+            {
+            position: relative;
+            width: auto;
+            height: 40px;
+            margin:0px 2px 0px 2px;
+            text-align: center;
+                }
+    input
+        {
+        right: 70px;
+        top: 180px;
+        margin:0px 2px 0px 2px;
+        }
+
+
+        .columns {
+        }
+        .columns, conteiner {
+            height: 500px;
+            width: 1000px;
+        }
+        .colums__title {
+            text-align: center;
+            margin: 0px 0px 10px 0px;
+            font-size: 30px;
+            line-height: 30px;
+            color: #191970;
+            font-weight: bold;
+        }
+        .columns__row {
+            display: flex;
+            flex-wrap:wrap;
+
+            
+        }
+        .columns__column {
+            flex: 1 0 50%;
+            margin-top: 20px;
+            margin-left: auto;
+            
+        }
+        .columns__item.item {
+            margin-left: 30px;
+        }
+        .item__row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .item__img {
+            flex: 0 0 100px;
+        }
+        .item__img img {
+            width: 100px;
+            height: 100px;
+        }
+        .item__body {
+            margin: 1 1 auto ;
+            padding: 0px 0px 0px 15px;
+        }
+        .item__title {
+            color: blue;
+            font-size: 18px;
+            line-height: 20px;
+
+        }
+        .item__text {
+            color: blue;
+            font-size: 14px;
+            margin-bottom: 0px 0px 30px 0px;
+        }
+
+        /* Убираем стандартный маркер Chrome */
+details summary::-webkit-details-marker {
+    display: none
+  }
+  /* Убираем стандартный маркер Firefox */
+  details > summary {
+    list-style: none;
+  }
+  .btn {
+    
+    padding: 20px 30px;
+    color: #fff;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 60px;
+    width: 90px;
+    height: 0.5px;
+}
+.btn-primary {
+        background:#191970 ;
+        font-size:12px;
+        text-align: center;
+        padding-top: 0px;
+        margin-top: 20px;
+        border-radius: 9%;
+        }
+.btn:hover 
+{
+background: #1E90FF;
+transition: all 0.3s ease-in-out;
+            }
+
+            .about__body {
+                max-width: 830px;
+                margin: 0px;
+                }
+            .about__header {
+                margin: 0px 0px 65px 0px;
+                }
+            .about__title {
+                margin: 0px 0px 30px 0px;
+                }
+            .title {
+                font-size: 34px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 8,95px;
+                position: relative;
+                text-align: center ;
+                padding: 0px opx 30px 0px;
+                }
+                
+            .title:after  
+                {   
+                    content: '';
+                    position: absolute;
+                    width: 50px;
+                    bottom: 0px;
+                    height: 1px;
+                    left: 50%;
+                    background-color: black;
+                    margin: 0px 0px 0px 25px;
+                }
+            
+            .about_text {
+            }
+            .about__row 
+                {
+                display: flex;
+                margin: 2px -15px;
+                }
+            .about__column 
+                {
+                    flex: 0 0 33,333%;
+                }
+            .item-about {
+            }
+            .item-about__img {
+                    height: 50px;
+                    width: 50px;
+                
+            }
+            .item-about__title {
+                text-align: center;
+                color: black;
+                font-size: 22px;
+                text-transform: uppercase;
+                letter-spacing: 3,52px;
+                margin:  0px 0px 35px 0px;
+            }
+            .item-about__text {
+                text-align: center;
+            }
